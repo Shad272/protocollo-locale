@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1030" viewBox="0 0 900 1030">
+<rect width="900" height="1030" fill="#fff"/>
+<g transform="translate(130 110) scale(1.25)">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#17476b"/>
+      <stop offset="1" stop-color="#0c2238"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#e3eef4"/>
+    </linearGradient>
+    <linearGradient id="seal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3fd0c9"/>
+      <stop offset="1" stop-color="#14858f"/>
+    </linearGradient>
+  </defs>
+  <!-- rounded tile -->
+  <rect x="16" y="16" width="480" height="480" rx="108" fill="url(#bg)"/>
+  <!-- subtle circuit traces -->
+  <g stroke="#2f7ea0" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.55">
+    <path d="M60 150 H96 L118 128"/>
+    <path d="M452 360 H420 L398 382"/>
+    <path d="M70 400 H104"/>
+  </g>
+  <g fill="#5ad2e0" opacity="0.7">
+    <circle cx="124" cy="122" r="9"/>
+    <circle cx="392" cy="388" r="9"/>
+  </g>
+  <!-- document -->
+  <g transform="translate(128 84)">
+    <path d="M0 24 Q0 0 24 0 H176 L248 72 V320 Q248 344 224 344 H24 Q0 344 0 320 Z" fill="url(#paper)"/>
+    <path d="M176 0 V52 Q176 72 196 72 H248 Z" fill="#b9d6e3"/>
+    <!-- register rows -->
+    <rect x="32" y="40" width="112" height="16" rx="8" fill="#9db8c9"/>
+    <rect x="32" y="104" width="184" height="16" rx="8" fill="#c3d6e2"/>
+    <!-- masked name row: bar becomes initials -->
+    <rect x="32" y="150" width="96" height="34" rx="9" fill="#0f2d48"/>
+    <text x="146" y="180" font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" font-size="34" fill="#14858f">A.B.</text>
+    <rect x="32" y="212" width="160" height="16" rx="8" fill="#c3d6e2"/>
+    <rect x="32" y="252" width="120" height="16" rx="8" fill="#c3d6e2"/>
+  </g>
+  <!-- verification seal -->
+  <g transform="translate(352 352)">
+    <circle r="78" fill="#0c2238"/>
+    <circle r="66" fill="url(#seal)"/>
+    <path d="M-30 2 L-8 24 L32 -20" stroke="#ffffff" stroke-width="16" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</g>
+<text x="450" y="870" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" font-size="64" letter-spacing="5" fill="#0f2d48">PROTOCOLLO LOCALE</text>
+<text x="450" y="930" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="31" fill="#14858f">iniziali al posto dei nomi, decide una persona</text>
+</svg>

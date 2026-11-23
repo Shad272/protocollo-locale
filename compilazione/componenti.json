@@ -1,0 +1,55 @@
+{
+  "python": "3.12.10",
+  "arch": "win_amd64",
+  "files": [
+    {
+      "name": "msi/core.msi",
+      "url": "https://www.python.org/ftp/python/3.12.10/amd64/core.msi",
+      "sha256": "0075fe3c252b2af487443a7fbf666c8055e2d111ce7a75de7df0a5d45efb8794"
+    },
+    {
+      "name": "msi/exe.msi",
+      "url": "https://www.python.org/ftp/python/3.12.10/amd64/exe.msi",
+      "sha256": "64bef9bfc893cce8c697020fd4564a4e62c7f06e8f4b8ac3c5dfec37bdc56458"
+    },
+    {
+      "name": "msi/lib.msi",
+      "url": "https://www.python.org/ftp/python/3.12.10/amd64/lib.msi",
+      "sha256": "699b862a3a0330114f8ddae9b92e394b4ee93341ba90e19710982cae62cd4079"
+    },
+    {
+      "name": "msi/pip.msi",
+      "url": "https://www.python.org/ftp/python/3.12.10/amd64/pip.msi",
+      "sha256": "c508f2cbc48506a8ef518cb792c384bfa3634beae65cbfb2cf5f2a4ec1fca157"
+    },
+    {
+      "name": "msi/tcltk.msi",
+      "url": "https://www.python.org/ftp/python/3.12.10/amd64/tcltk.msi",
+      "sha256": "55c96ffad69b1c834aa52e11b9ce41637a178ba6ad6607e83956044834276e2a"
+    },
+    {
+      "name": "wheels/charset_normalizer-3.5.2-cp312-cp312-win_amd64.whl",
+      "sha256": "780fbe7cab297b81dad9fb8dc5eb003c0468ffb0d9e5f65068c53a34661a96bc"
+    },
+    {
+      "name": "wheels/et_xmlfile-2.0.0-py3-none-any.whl",
+      "sha256": "7a91720bc756843502c3b7504c77b8fe44217c85c537d85037f0f536151b2caa"
+    },
+    {
+      "name": "wheels/openpyxl-3.1.5-py2.py3-none-any.whl",
+      "sha256": "5282c12b107bffeef825f4617dc029afaf41d0ea60823bbb665ef3079dc79de2"
+    },
+    {
+      "name": "wheels/pillow-13.0.0-cp312-cp312-win_amd64.whl",
+      "sha256": "ff3fe9eb621fbb9db4c4be33ab946f6bac5f98ab50ca8d3260503653656c961b"
+    },
+    {
+      "name": "wheels/reportlab-4.5.1-py3-none-any.whl",
+      "sha256": "06fce8cb56c83307cfa4909cdf4e6a2ddbb44e5d6ef4d2edca896d7e9769f091"
+    },
+    {
+      "name": "wheels/xlrd-2.0.2-py2.py3-none-any.whl",
+      "sha256": "ea762c3d29f4cca48d82df517b6d89fbce4db3107f9d78713e48cd321d5c9aa9"
+    }
+  ]
+}

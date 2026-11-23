@@ -1,0 +1,38 @@
+RICOMPILARE L'INSTALLER
+
+I file Python nella cartella principale restano modificabili e si avviano con
+AVVIA.cmd, che richiede Python 3.12 x64 e ne avvia l'installazione se assente.
+Il runtime dell'installer e indipendente dall'ambiente AVVIA.cmd.
+
+Per rigenerare il Setup si usa Linux (anche Ubuntu su WSL) con Python 3 e pip.
+Prerequisiti di compilazione: gcc-mingw-w64-x86-64, binutils-mingw-w64-x86-64,
+nsis, msitools. Su Ubuntu:
+  sudo apt install gcc-mingw-w64-x86-64 binutils-mingw-w64-x86-64 nsis msitools python3-pip
+Dalla cartella dei sorgenti:
+  python3 compilazione/compila.py
+Risultato: build/ProtocolloLocale_Setup.exe
+
+Il processo scarica CPython ufficiale e i wheel Windows; controlla gli SHA-256
+in componenti.json prima di costruire il runtime privato e compilare il launcher.
+Per cambiare versioni delle dipendenze occorre aggiornare anche il manifesto.
+La cartella build contiene gli intermedi ed e rigenerabile.
+
+Il launcher C carica python312.dll nello stesso processo ProtocolloLocale.exe.
+Non e un semplice collegamento a un processo python.exe.
+La verifica automatica e: ProtocolloLocale.exe --autotest
+Una verifica di apertura/chiusura GUI e: ProtocolloLocale.exe --verifica-gui
+Il successo della verifica crea autotest.ok nella cartella installata.
+
+Icona inclusa in assets/app.ico e assets/logo_icona.svg.
+Viene usato per eseguibile, Setup, disinstallazione e finestra Tk.
+Le scorciatoie ereditano l'icona dell'eseguibile.
+Per rigenerare le icone da assets/logo_icona.svg: python3 compilazione/prepara_icone.py
+Servono Pillow e CairoSVG solo per rigenerare la grafica, non per compilare.
+
+Il collaudo del Setup su un vero Windows 10/11 x64 e un passaggio distinto
+necessario prima di una distribuzione estesa. Non c'e firma digitale Authenticode.
+
+TEST DELLE CORREZIONI MANUALI
+Installa i componenti di test: python -m pip install -r requirements-test.txt
+Esegui: python -m unittest discover -p "test_*.py"
+I sei test grafici richiedono Windows oppure un display Tk (anche Xvfb).

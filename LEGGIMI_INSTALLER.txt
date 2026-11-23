@@ -1,0 +1,77 @@
+PROTOCOLLO LOCALE 4.3 - INSTALLER WINDOWS X64
+
+Esegui ProtocolloLocale_Setup.exe. Il programma compare nel menu Start e sul Desktop.
+Installazione per l'utente corrente in:
+%LOCALAPPDATA%\Programs\ProtocolloLocale
+
+Sono inclusi un runtime privato Python 3.12.10 a 64 bit, Tcl/Tk,
+openpyxl, reportlab, xlrd e le relative dipendenze con licenze.
+Non e necessario avere Python installato e non viene modificato il PATH.
+L'installazione base non richiede Internet.
+
+I riconoscitori aggiuntivi sono selezionati per impostazione predefinita nel Setup.
+Il loro download richiede Internet, alcuni GB di spazio e diversi minuti.
+Se non li installi, puoi usare il riferimento approvato di ottobre e la revisione
+manuale. Le righe nuove devono essere controllate e approvate prima dell'export.
+Per completare il download in seguito: Start > Protocollo Locale >
+Attiva riconoscitori locali. Nessun documento viene letto dal download dei modelli.
+
+TASK MANAGER
+Nella scheda Dettagli il processo dell'interfaccia installata si chiama:
+ProtocolloLocale.exe
+Descrizione: Protocollo Locale.
+Il processo resta aperto mentre la finestra e aperta, anche quando non lavora.
+Chiudendo la finestra termina: non e un servizio e non resta in background.
+Durante il download dei modelli possono comparire anche processi python.exe.
+La versione avviata dai sorgenti tramite AVVIA.cmd usa invece python.exe.
+
+LOGO
+L'icona del programma e applicata a eseguibile, finestra, barra delle
+applicazioni, collegamenti, Setup e disinstallazione. Le icone piccole
+usano l'icona senza la scritta.
+
+DISINSTALLAZIONE
+Impostazioni Windows > App > Protocollo Locale > Disinstalla.
+Documenti esportati, memorie salvate e cache dei modelli non vengono cancellati.
+
+VERIFICA E LIMITI DI QUESTO RILASCIO
+Launcher PE Windows x64 e installer NSIS compilati.
+Controlli automatici del motore, dei componenti e del pacchetto eseguiti.
+Il Setup verifica Python, Tk e i moduli prima di dichiarare pronta l'applicazione.
+L'esecuzione completa su Windows non e stata collaudata in questo ambiente:
+Wine e bloccato. Il primo avvio sul PC Windows resta da verificare.
+Non viene promessa l'assenza assoluta di omissioni nei riconoscitori.
+
+INTERFACCIA CLASSICA AGGIORNATA - 23/10/2026
+Ripristinata la disposizione della prima interfaccia: importazione e titolo
+in alto, schede Nomi e societa / Anteprima e correzioni al centro, esportazione
+in basso a destra. Colori chiari, bordi sottili e pulsanti squadrati.
+Su finestre basse le informazioni secondarie si riducono per lasciare spazio
+alle righe da controllare. Il motore, il riferimento approvato, i metodi di
+correzione e il blocco dell’export delle righe non approvate sono invariati.
+
+RIQUADRO NOMINATIVI RIPRISTINATO
+La prima scheda mostra il grande riquadro Nomi e societa, come nella
+interfaccia originale, con Aggiorna anteprima / Importa / Salva JSON sotto.
+L’elenco e consultabile: un doppio clic apre il controllo del protocollo
+indicato. Le correzioni si fanno sul singolo oggetto nella finestra di
+controllo; non si applicano sostituzioni globali alle altre righe.
+La scheda Anteprima e correzioni contiene la tabella completa.
+Il motore di anonimizzazione, gli export e le approvazioni restano invariati.
+
+MODIFICA DIRETTA DELL’OGGETTO
+Nel controllo della riga, il riquadro OGGETTO MODIFICABILE a destra permette
+di scrivere, incollare e correggere anche i risultati gia approvati.
+Premi Salva e conferma modifica per applicare il testo a quella sola riga,
+oppure Annulla per tornare al testo salvato. Anche il pulsante di verifica
+della riga salva e conferma il testo modificato prima di avanzare.
+L’originale a sinistra rimane come confronto. Le altre righe non cambiano.
+Le bozze restano disponibili cambiando selezione; prima di esportare o
+salvare le approvazioni occorre confermarle o annullarle.
+Salva approvazioni JSON permette di riutilizzare le correzioni su originali
+identici anche nelle sessioni successive.
+
+INDICATORE ATTIVITA
+La vecchia barra e sostituita da un piccolo cerchio animato accanto al testo
+dell’operazione. Si vede solo durante analisi ed esportazione e scompare
+al completamento o in caso di errore. Non rappresenta una percentuale.

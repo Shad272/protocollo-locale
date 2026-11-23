@@ -1,0 +1,5 @@
+Icona di Protocollo Locale, disegnata apposta per la versione pubblica.
+logo_icona.svg: icona (registro con un nome ridotto a iniziali e sigillo di verifica).
+logo.svg e logo.png: icona con la scritta.
+app.ico e icona-*.png: derivati da logo_icona.svg per le dimensioni ridotte.
+Lo stemma dell'ente usato nella versione originale non e incluso.

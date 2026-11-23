@@ -1,0 +1,28 @@
+Protocollo Locale 4.3
+22 ottobre 2026
+- Motore riscritto con intervalli e decisioni per singola riga.
+- Nessun oscuramento indiscriminato dei casi dubbi.
+- Riferimento approvato di ottobre incluso con riuso vincolato all'originale.
+- Dizionario dei nominativi gia' verificati; apprendimento dalle revisioni salvate.
+- Esportazione bloccata finche' tutte le righe nuove non sono state approvate.
+- Originale e risultato affiancati; pulsanti di esportazione a destra.
+- Rotellina anche durante il caricamento iniziale dell'interfaccia.
+- Avvio compatibile con Python 3.11/3.12 a 64 bit e installazione spaCy binaria.
+
+Correzione avvio del 22 ottobre 2026:
+- Console persistente cmd /k, ritorno corretto anche da launcher Python .cmd.
+- Ricerca degli ambienti e degli interpreti prima di dichiarare l'avvio fallito.
+- Conferma positiva dalla finestra, con controllo di chiusura immediata.
+- Diagnostica completa in diagnostica_avvio.log, avvio.log e ultimo_avvio_cmd.log.
+- GUI avviata con python.exe e stdout/stderr registrati, senza una seconda console.
+- Nessun logo inserito: la proposta grafica resta da approvare.
+
+Aggiornamento requisito Python:
+- Python 3.12 a 64 bit con Tcl/Tk ora e' l'unico requisito dichiarato.
+- Installazione automatica al primo avvio con Python Install Manager o winget.
+- Ambiente .venv312 dedicato; vecchi ambienti conservati.
+
+Correzione caratteri del 23 ottobre 2026:
+- Riparazione conservativa delle sequenze UTF-8 lette con codifica errata.
+- Correzione anche delle approvazioni precedenti, anteprima, Excel e PDF.
+- Intervalli di anonimizzazione e chiavi delle approvazioni preservati.

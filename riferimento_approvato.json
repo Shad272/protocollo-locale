@@ -1,0 +1,658 @@
+{
+  "versione": 4,
+  "descrizione": "Solo righe esplicitamente approvate. Riutilizzo soltanto su originali identici.",
+  "righe": {
+    "f7d393ab2dedf7ebc59a75605de6aa0d0347692f53131711ed7334f34f2d343b": {
+      "oggetto": "Segnalazione buca stradale in Via Fittizia 119 - famiglia P.",
+      "origine": "Revisione manuale"
+    },
+    "4ed94297f486363d3fb5d38495020db863086ab61554e6215de4eb0b9baddb7a": {
+      "oggetto": "Liquidazione fattura n. 312/2026 - ditta S.T.P. S.a.s. - fornitura materiale di cancelleria",
+      "origine": "Revisione manuale"
+    },
+    "ec1b5e3035af003d3617415e21ad6a6cb3666ec9e6621d2dabd39c6985f54104": {
+      "oggetto": "SIG.RI C.O./G.P. - richiesta certificato di stato di famiglia",
+      "origine": "Revisione manuale"
+    },
+    "dc701b0cfe59c3dc3b7b9711d38dabe59ab1a52ff13283c33cc3fb723f3df59c": {
+      "oggetto": "Comunicazione esito domanda di assegno di maternità - sig.ra C.C.",
+      "origine": "Revisione manuale"
+    },
+    "545de51b21b36cbe91342592acf2dd9cd01683a35042741e4ab5e6c8fd16b777": {
+      "oggetto": "Comunicazione degli orari delle funzioni - Parrocchia di San Prova",
+      "origine": "Revisione manuale"
+    },
+    "85089b37c5a2cff13a809bddf301c762fa79226f4b0019e6f83331efc3c2077c": {
+      "oggetto": "Variazione utenze TARI - C.B. C.F. BNDCRN96D68X000X",
+      "origine": "Revisione manuale"
+    },
+    "bb6880701721e06c92a53f9b8ff58972b067a3a627c38520a4916df465c1ae3b": {
+      "oggetto": "Deposito pratica CILA - Strada della Demo 118/B - professionista incaricato geom. A.P.",
+      "origine": "Revisione manuale"
+    },
+    "5d3fc39674a01bb21d89284807c155a2c54f15857fd1eee81a03ce2f9d9259b2": {
+      "oggetto": "Autorizzazione al trasporto di salma e cremazione V.T.",
+      "origine": "Revisione manuale"
+    },
+    "c6d4d75635daaca29a77c68a362841f44f4a21382109a89c54e58514e70cf638": {
+      "oggetto": "Autorizzazione al trasporto di salma e cremazione S.A.",
+      "origine": "Revisione manuale"
+    },
+    "19cca5bd0d672e18555fabbce1266dbdd42ff28fd7bca4471511def5f8cebedd": {
+      "oggetto": "Richiesta certificato di residenza storico - S.C.",
+      "origine": "Revisione manuale"
+    },
+    "681bf568678c827821fbc8df7c30c93ad6d71c6fc78e7a1d0b643c4c893c24fa": {
+      "oggetto": "Comunicazione esito domanda di assegno di maternità - sig.ra P.W.",
+      "origine": "Revisione manuale"
+    },
+    "66db147c123e67ef5be9ff8cbee448988827e384c33a465803c790ffa3c9b032": {
+      "oggetto": "Richiesta di congedo ordinario - dipendente F.V.",
+      "origine": "Revisione manuale"
+    },
+    "6feead1d89530bff9903f84c6cb3e06ba05ce6fb82c97aace07947939d67c7a4": {
+      "oggetto": "Rilevazione mensile degli eventi demografici - settembre 2026",
+      "origine": "Revisione manuale"
+    },
+    "dca558ef4548a3b7d0917d4aaa05a7bd59fc8671a3f6436bad148aab7912064b": {
+      "oggetto": "Fattura elettronica n. 436/PA - A.S.E. S.r.l.s.",
+      "origine": "Revisione manuale"
+    },
+    "762b913cb57798db9072bcf9aa56606613055995943e29882d49d64570c8af54": {
+      "oggetto": "Preventivo per manutenzione del verde pubblico - O.F.E. S.n.c.",
+      "origine": "Revisione manuale"
+    },
+    "a77ee584066f91e290d227e5d9ba1671a6c06f7adc1c599ba854a7506b2544aa": {
+      "oggetto": "Richiesta di rettifica dei dati anagrafici - A.M.D.V.Z.",
+      "origine": "Revisione manuale"
+    },
+    "7540d9671a9ba3b9c1a059009a232ffd0bd5548ba64934ca7e9e7b7751ba4fa6": {
+      "oggetto": "Chiusura temporanea della strada provinciale 12 per lavori",
+      "origine": "Revisione manuale"
+    },
+    "7871e65eabf42f3e1407f3bec0f77d35c693d8d645382d4003291d0eba1a0a64": {
+      "oggetto": "Preventivo per manutenzione del verde pubblico - A.S.E. S.r.l.s.",
+      "origine": "Revisione manuale"
+    },
+    "c6eb155056a7a467e0e5b447dcce5de94eb05087da3886b3cfef6f880df7fdef": {
+      "oggetto": "Occupazione temporanea di suolo pubblico per trasloco in Via Fittizia 140 int. 3 - T.C. S.r.l.s.",
+      "origine": "Revisione manuale"
+    },
+    "e200c1e08e1093712466f748686ce2657bc87670da507accf15fbad9e8d23a22": {
+      "oggetto": "Iscrizione al servizio scuolabus - alunna A.M.C. - genitore G.R.",
+      "origine": "Revisione manuale"
+    },
+    "e7f6cc71f85e3adb93485d99c21e98c402a46e8196b213eb263373328fca5c5a": {
+      "oggetto": "SIG.RI S.R./R.S. - richiesta certificato di stato di famiglia",
+      "origine": "Revisione manuale"
+    },
+    "861a7acb1fc1a647d45cbb6220dae0f9ea5fab2e8cd075f41f42a7dc835ce126": {
+      "oggetto": "Segnalazione albero pericolante in Via del Campione 133 - condominio Il Glicine",
+      "origine": "Revisione manuale"
+    },
+    "d5e5c9c54341703b58ae3027e9943a33c52e362d352e6e29a5a19bcb8c1c1c16": {
+      "oggetto": "Comunicazione di inizio attivitÃ  di somministrazione temporanea - I.F. S.n.c.",
+      "origine": "Revisione manuale"
+    },
+    "ef37ad09f322b0a41e394de8ab69a89b5df43f304606b4b769ead6bf39ab73b5": {
+      "oggetto": "Dichiarazione di ospitalità di cittadino straniero - ospitante S.P., ospite C.M.",
+      "origine": "Revisione manuale"
+    },
+    "72bf0b72b9e06e6d15c4c15b8d4ae926712ea7ac42370a0df006c48bac4d2eae": {
+      "oggetto": "SCIA per apertura esercizio di vicinato in Strada della Demo 90 - F.B. S.p.A.",
+      "origine": "Revisione manuale"
+    },
+    "fe342b1e25f32459344ef8a13ea3c3e624a4a506667254c68f54bc548eb7811c": {
+      "oggetto": "SCIA per apertura esercizio di vicinato in Via Fittizia 6 - V.D. S.p.A.",
+      "origine": "Revisione manuale"
+    },
+    "a5d526ab0271b8cb96a69b2a58d486b6c62129ed2d8ae8af297c1a5acef8f391": {
+      "oggetto": "Comunicazione di cessione di fabbricato - sig.ra M.F., Corso Immaginario 79/A",
+      "origine": "Revisione manuale"
+    },
+    "bdd8ef170c1be7768998c4391398b2695229f2c81c2b8049bdbb59c2b63d0405": {
+      "oggetto": "Indagine sulle spese delle famiglie: elenco delle famiglie campione",
+      "origine": "Revisione manuale"
+    },
+    "3da081795c8a3d177a68576634bd268599872a7ea525d0f96a052cb8ecd764a3": {
+      "oggetto": "Rendicontazione del contributo per il concerto di Natale - Associazione Banda Musicale Esempio",
+      "origine": "Revisione manuale"
+    },
+    "33ebef14f0dd6f3bceeef8fac97f6ebe8e9fe4948b78d34e6c5ddf32ea07c6bd": {
+      "oggetto": "Comunicazione di inizio attività di somministrazione temporanea - O.F.E. S.n.c.",
+      "origine": "Revisione manuale"
+    },
+    "961bc321f0119dceb33e4f3eac67cfc1bd68c29b784d681844c7e8c0fb869da8": {
+      "oggetto": "SIG.RI M.G./D.A.M. - richiesta certificato di stato di famiglia",
+      "origine": "Revisione manuale"
+    },
+    "e532e40c369601663f6e2cf1f762b7e07e32136f9edfc4f5b6c70ec986f24212": {
+      "oggetto": "Notifica verbale di accertamento n. 805/2026 a M.S.",
+      "origine": "Revisione manuale"
+    },
+    "3f8ea5dbeb3390769d177ca8ce6efbe89e7c2567fe89c60d67fd788e6a25cff8": {
+      "oggetto": "Bando per contributi alle biblioteche comunali",
+      "origine": "Revisione manuale"
+    },
+    "7309c9314b3e56c312539ae55ba52316aa5909c63fe3826ff1016b8cbef47671": {
+      "oggetto": "Trasmissione della delibera di Giunta n. 145 all'ATS di Esempio",
+      "origine": "Revisione manuale"
+    },
+    "ab9a39beabc66c43c08668bc2d68e3464762f38a4fa702721c28664ab1306cc2": {
+      "oggetto": "Corso di formazione sulla privacy a cura della dott.ssa I.L.P. | 25 novembre ore 10.00",
+      "origine": "Revisione manuale"
+    },
+    "72ef81704ba30782d843e1a212b99e8f33792d80ddd81d77134455019efdb1b1": {
+      "oggetto": "Rendicontazione del contributo per il concerto di Natale - Associazione Banda Musicale Esempio",
+      "origine": "Revisione manuale"
+    },
+    "8ab5e099b0beadd9b8139e3a5ca68908bde1be6dd0d6efd6a6c3398e6f015bac": {
+      "oggetto": "Fattura elettronica n. 53/PA - I.F. S.n.c.",
+      "origine": "Revisione manuale"
+    },
+    "5b072aeb62e10a93b3f1cf8f3eb09c0526c05cbbcdf02bfd843ab893f4e407d2": {
+      "oggetto": "Deposito pratica CILA - Vicolo Inventato 52 - professionista incaricato geom. C.M.",
+      "origine": "Revisione manuale"
+    },
+    "9bef738f593bd2c8f6bae4338a49a56c1ffefb1d497c6fd4e902b3d2426a87e7": {
+      "oggetto": "Rendicontazione del contributo per il concerto di Natale - Associazione Banda Musicale Esempio",
+      "origine": "Revisione manuale"
+    },
+    "8d5959f8e31de4ea9d78cffc680aba1c1a97ee4cb1290682c7d9ba53e198af43": {
+      "oggetto": "RICHIESTA CONTRIBUTO ECONOMICO STRAORDINARIO - B.S.",
+      "origine": "Revisione manuale"
+    },
+    "c239fa7297360c07168ac10724e12a5690599eb5c405d809098f15b6ef34624e": {
+      "oggetto": "Richiesta di carta d'identità elettronica per minore - M.R.",
+      "origine": "Revisione manuale"
+    },
+    "33d89002e6835a63550e7bb4e84723090b495b60b5b9f332ca3fdbb1f82769c2": {
+      "oggetto": "Comunicazione di inizio attività di somministrazione temporanea - I.F. S.n.c.",
+      "origine": "Revisione manuale"
+    },
+    "182ec8e8b053b31390be0b720ee585dc7c67f1345dce18ee181570645553f3a7": {
+      "oggetto": "Notifica verbale di accertamento n. 618/2026 a L.S.",
+      "origine": "Revisione manuale"
+    },
+    "6ed23cff500300086331b6c3ec7c58ce2aa907dfdd90f5575e6dc5e8e6bd9797": {
+      "oggetto": "Variazione utenze TARI - F.P. C.F. PRSFNC56B41X000D",
+      "origine": "Revisione manuale"
+    },
+    "d7a239ddadd425b71d322395f88952cb3ff2174a4f455edfd1a5aa921a33e747": {
+      "oggetto": "Richiesta di rettifica dei dati anagrafici - G.L.D.V.Z.",
+      "origine": "Revisione manuale"
+    },
+    "48550bb0a866779a8bf66a46a120c085454046ee26b508b89802f567b2761c41": {
+      "oggetto": "Dichiarazione di ospitalità di cittadino straniero - ospitante M.B., ospite F.S.",
+      "origine": "Revisione manuale"
+    },
+    "d1c33605c7d69a547ea3ab6514303dec12b34eae333641f4f7dfc56877e29e93": {
+      "oggetto": "Trasmissione della delibera di Giunta n. 125 all'ATS di Esempio",
+      "origine": "Revisione manuale"
+    },
+    "696c9aad9216edd11e0065754ff26bd0cde8ed68bac83599795ea4661fbc4ea6": {
+      "oggetto": "SCIA per apertura esercizio di vicinato in Via del Campione 20/B - F.B. S.p.A.",
+      "origine": "Revisione manuale"
+    },
+    "fc0579c565a3f9f716ce538f923393b247ebe45ed1a794397fe27dbb74ab52cd": {
+      "oggetto": "Istanza di accesso agli atti - avv. P.P. per conto del sig. B.M.",
+      "origine": "Revisione manuale"
+    },
+    "5d35dcd79bf00b4354c97c012d69f495fb23e16546a4d809d3d40c011b9dbb56": {
+      "oggetto": "Richiesta di congedo ordinario - dipendente P.A.",
+      "origine": "Revisione manuale"
+    },
+    "9c82defb7ef00ed0a6329c1f32592e5ae174171f69c11ba462d543b5c3b34371": {
+      "oggetto": "Rimborso di € 69,00 per diritti di segreteria non dovuti a S.R.",
+      "origine": "Revisione manuale"
+    },
+    "ba474cef713d04f273d889641641a7a1fd6d4cf264cf64881e15654221bd4984": {
+      "oggetto": "Fattura elettronica n. 765/PA - V.D. S.p.A.",
+      "origine": "Revisione manuale"
+    },
+    "bdd2c24f98471f37f693183aee5b4c6c85d0b71bed0f0387cf13944f88204a17": {
+      "oggetto": "Richiesta di rettifica dei dati anagrafici - M.G.L.P.T.",
+      "origine": "Revisione manuale"
+    },
+    "3e52c9865f09512163db28b1bd03467f621ced297ca159806b18c5f2e01177d2": {
+      "oggetto": "Webinar gratuito di L.D.A. sul nuovo regolamento edilizio - 4 crediti formativi",
+      "origine": "Revisione manuale"
+    },
+    "a97c73444c8b8c9a6763e084c331f6b2da9d149180a7b8daff2125aeda924a90": {
+      "oggetto": "Webinar gratuito di F.G. sul nuovo regolamento edilizio - 4 crediti formativi",
+      "origine": "Revisione manuale"
+    },
+    "1226ca23b8e5e200883b05cfb7910c52f7c7b497ec3ca8791744e8ae07f06b6b": {
+      "oggetto": "Proposta di donazione di libri da parte di S.F.",
+      "origine": "Revisione manuale"
+    },
+    "5dfc6c8d6b1702b625bfb208bdce93a2fd90b960ff804883b35dac7bddc299ad": {
+      "oggetto": "Comunicazione di cessione di fabbricato - sig.ra P.G., Via dei Modelli 97/B",
+      "origine": "Revisione manuale"
+    },
+    "4b0fcfd7bcd4ce691ec4021e1b409241f8688fe887fae0b601eb7dc13eb55648": {
+      "oggetto": "Comunicazione di cessione di fabbricato - sig. M.M., Via degli Esempi 67",
+      "origine": "Revisione manuale"
+    },
+    "01a2469958febf535f4d5c031e638d12ed8e479953c8c1c019d2d9827780de5f": {
+      "oggetto": "Richiesta copia integrale dell'atto di nascita - R.G.L. nato a San Prova",
+      "origine": "Revisione manuale"
+    },
+    "15674b4d1b4c359ae56f2e4af4596f14c83ca2caafbcfca70711097122e63e7b": {
+      "oggetto": "Notifica verbale di accertamento n. 448/2026 a P.P.",
+      "origine": "Revisione manuale"
+    },
+    "42fc5b28fe1af02dc595c8b092a6178c77214ac05f0f8e34ea06630b325bc0be": {
+      "oggetto": "Allerta meteo per rischio idrogeologico: indicazioni ai Comuni",
+      "origine": "Revisione manuale"
+    },
+    "6b61522f56318dd673b2ca231d59e5324ca4a1fb98057a98a5501999d026d16f": {
+      "oggetto": "Richiesta di concessione loculo per il defunto F.R.",
+      "origine": "Revisione manuale"
+    },
+    "5b340f7c1f5166b84d62711e6ea60268e20526b92d004f61fd5c720955d426e0": {
+      "oggetto": "Calendario delle esercitazioni di protezione civile",
+      "origine": "Revisione manuale"
+    },
+    "a5981ef5e86b0a1ed27adfd4444103789505568695b00d26d22309b55660d830": {
+      "oggetto": "Occupazione temporanea di suolo pubblico per trasloco in Vicolo Inventato 33 - T.C. S.r.l.s.",
+      "origine": "Revisione manuale"
+    },
+    "f23a4fa8d3564b9842e755bb33b6ec00971feefffcfd352d1975b975cbacfe5d": {
+      "oggetto": "Rimborso di € 49,00 per diritti di segreteria non dovuti a C.F.",
+      "origine": "Revisione manuale"
+    },
+    "5fa2359392a053015d98ec8a57a34ee2bc5c445efdd613043b86e40b7eace14e": {
+      "oggetto": "Rendicontazione del contributo per il concerto di Natale - Associazione Banda Musicale Esempio",
+      "origine": "Revisione manuale"
+    },
+    "e219b006f93f164be58dd5827d5c7caad788ce0ae3f69aa99ca28bc9f2d4f319": {
+      "oggetto": "SIG.RI G.M./C.I. - richiesta certificato di stato di famiglia",
+      "origine": "Revisione manuale"
+    },
+    "ea35a5e02866ae0c9c856d0180b67de1012e2c5e70f1a164b7341ae9c8be7017": {
+      "oggetto": "Notifica verbale di accertamento n. 267/2026 a I.R.",
+      "origine": "Revisione manuale"
+    },
+    "940b75a7c83ebe2e2f9274fcf58c0ac72692512e0e20731e4cc3740c15015f88": {
+      "oggetto": "Iscrizione al servizio scuolabus - alunna L.S. - genitore L.F.",
+      "origine": "Revisione manuale"
+    },
+    "45fa28b2b137aeec411d7a033155e82347da308ebf517bd4135126bbbaf98fc0": {
+      "oggetto": "Chiusura temporanea della strada provinciale 12 per lavori",
+      "origine": "Revisione manuale"
+    },
+    "5fa31f1e84178f75e97b836423ab432f8ba625572feb2eec82b806661862b22b": {
+      "oggetto": "Fattura elettronica n. 950/PA - E.I. S.r.l.",
+      "origine": "Revisione manuale"
+    },
+    "bf6fa5fd240c748dc3ac5a6b4b0a22c96379eaec6643880dddf6a2b4f330f1a3": {
+      "oggetto": "Liquidazione fattura n. 309/2026 - ditta T.M. S.r.l. - fornitura materiale di cancelleria",
+      "origine": "Revisione manuale"
+    },
+    "3a9feeada21a228e8d410bbd7befffbbbd84e2e60d622a654a7567f06f91c8da": {
+      "oggetto": "Fattura elettronica n. 533/PA - S.T.P. S.a.s.",
+      "origine": "Revisione manuale"
+    },
+    "bf1f12a14b44d3d9a515c718d0c6568d091afe5f47b7c7fa5aedca4cda891b81": {
+      "oggetto": "Richiesta di congedo ordinario - dipendente S.A.M.",
+      "origine": "Revisione manuale"
+    },
+    "530682b214d610f51df9cf80f7005c5bfc30bad8faffb5ceda1d89a1f3d921dc": {
+      "oggetto": "Richiesta copia integrale dell'atto di nascita - M.M. nata a San Prova",
+      "origine": "Revisione manuale"
+    },
+    "57504d534129b8d1de4943e35699d0869317c568f02c00c361e7e019b5a25baa": {
+      "oggetto": "Deposito pratica CILA - Corso Immaginario 18/A - professionista incaricato geom. W.C.",
+      "origine": "Revisione manuale"
+    },
+    "6a7a7a1dcfce8e7a20d1b03eb806bc113f005d15c6843f2ba48cdf2d61c989f4": {
+      "oggetto": "Esposto per rumori molesti provenienti dall'abitazione del sig. F.",
+      "origine": "Revisione manuale"
+    },
+    "957e8a93d04b50f67d014d3e0b5581514a09ca1439ea14773c470efd84b9699b": {
+      "oggetto": "Comunicazione degli orari delle funzioni - Parrocchia di San Prova",
+      "origine": "Revisione manuale"
+    },
+    "5f77baf335d1e0e9940d877ce2ec329a7537963cc8842c127be73e0722c6b94b": {
+      "oggetto": "Autorizzazione al trasporto di salma e cremazione V.O.",
+      "origine": "Revisione manuale"
+    },
+    "0da68d31a76e84f70cbfef94f47da2bd7d5e4c13b94b3cc32bb77c0f1e246acd": {
+      "oggetto": "Richiesta di rettifica dei dati anagrafici - G.L.D.V.Z.",
+      "origine": "Revisione manuale"
+    },
+    "47e3e05ba9abbe9fe3a659c2bc6814842e7f9f3c0cb788f632d22695f016b162": {
+      "oggetto": "Richiesta di patrocinio e uso della sala civica - ASD Polisportiva Esempio per torneo giovanile",
+      "origine": "Revisione manuale"
+    },
+    "dbd74df813bee2e9c18e3adfff4ff22a7e57a6c7408cfc0ae3188f0c3943bf3f": {
+      "oggetto": "Occupazione temporanea di suolo pubblico per trasloco in Strada della Demo 75 - T.C. S.r.l.s.",
+      "origine": "Revisione manuale"
+    },
+    "7157f6292cfc0e2b8aa01e3d822b465216912abb33bfb04bdaa3d11c8e8218db": {
+      "oggetto": "Domanda di iscrizione al servizio mensa per l'alunna M.B. - a.s. 2026/2027",
+      "origine": "Revisione manuale"
+    },
+    "1004e7afc83437427e38be83dfee77c783aacbde238c3446d40cb1f08208943a": {
+      "oggetto": "Chiusura temporanea della strada provinciale 12 per lavori",
+      "origine": "Revisione manuale"
+    },
+    "4ccdb62e62e49e65862d2d1c1c9d49c311b7c30326432d53467bf56cf430d407": {
+      "oggetto": "Richiesta di carta d'identità elettronica per minore - P.R.",
+      "origine": "Revisione manuale"
+    },
+    "38e8a771053fd30753feaa61b7d820ab746e83ca0299ddc17edf551bb6b5e172": {
+      "oggetto": "Richiesta di carta d'identità elettronica per minore - E.V.",
+      "origine": "Revisione manuale"
+    },
+    "c09ece2d8e13eccce52020239eefd24f36fc9505f13d8e1ce05c528ce24954d0": {
+      "oggetto": "Rendicontazione del contributo per il concerto di Natale - Associazione Banda Musicale Esempio",
+      "origine": "Revisione manuale"
+    },
+    "09ecdef38b92f5e262dcfad1b6537ba6bada8debbe95e33c333d1ea59382e8e9": {
+      "oggetto": "Occupazione temporanea di suolo pubblico per trasloco in Strada della Demo 84 - T.C. S.r.l.s.",
+      "origine": "Revisione manuale"
+    },
+    "8b1be8b3a5a3cde2be30571205871a26f8a620d0f721ddc9f95b4696bdbfc00f": {
+      "oggetto": "Richiesta copia integrale dell'atto di nascita - E.S. nata a Borgo Esempio",
+      "origine": "Revisione manuale"
+    },
+    "cb1a31f7b43643b8adffe30bd61a1e336e6a2f6883b5474995cc8cb13721fb27": {
+      "oggetto": "Rilevazione mensile degli eventi demografici - settembre 2026",
+      "origine": "Revisione manuale"
+    },
+    "31743d210e328755f76308da80b290f1aa2e1f9df6da36504081ecaa8c9ae5c4": {
+      "oggetto": "SCIA per apertura esercizio di vicinato in Via delle Simulazioni 44 - T.M. S.r.l.",
+      "origine": "Revisione manuale"
+    },
+    "0d33f4c9ae730ecce353ba05c41814a06a05119c7cb09c6f9912ac8b1f7469f9": {
+      "oggetto": "Richiesta potatura delle piante in Via delle Simulazioni 68 int. 3 - condominio Il Glicine",
+      "origine": "Revisione manuale"
+    },
+    "fbd4a61bab3513be521ecaffed975c77b2c944ba57cfe7209ddb299d03671647": {
+      "oggetto": "Richiesta passo carraio in Via Battista Serra 4 - sig. B.S.",
+      "origine": "Revisione manuale"
+    },
+    "10997ece6a7845cf95834a77e4528bcdea039c96022f19b4a1ab53d4811afa9b": {
+      "oggetto": "Webinar gratuito di F.L. sul nuovo regolamento edilizio - 4 crediti formativi",
+      "origine": "Revisione manuale"
+    },
+    "1066384243b368ec459b7d4d21ef61b3615c759cb44881a54d14796edad01fd4": {
+      "oggetto": "Richiesta di rettifica dei dati anagrafici - M.G.L.P.T.",
+      "origine": "Revisione manuale"
+    },
+    "a1102462ec23a731435e48f13e5d97027bd62c5271cbf180b3865fb6f230873f": {
+      "oggetto": "Richiesta di congedo ordinario - dipendente F.B.",
+      "origine": "Revisione manuale"
+    },
+    "7a7008be12b0a471ada36d0994972b633b4fb6476173e478ad8e2e70a4f5fd96": {
+      "oggetto": "Richiesta di parere igienico-sanitario all'ATS di Esempio",
+      "origine": "Revisione manuale"
+    },
+    "f9ce8e5375333a9a1203f6eb4b989498d6b9c5b98e59204544867b3d16190f8d": {
+      "oggetto": "Richiesta di carta d'identità elettronica per minore - R.D.V.",
+      "origine": "Revisione manuale"
+    },
+    "c02952b9687213da55c72374f0e6ac92886bcd2fc9b3357d8de31ba36ac144ce": {
+      "oggetto": "Proposta di donazione di libri da parte di A.C.",
+      "origine": "Revisione manuale"
+    },
+    "d3862654200c6e2489baa471f5cb23ac3f5fd632e894ceaf3ca58d09ecd9ad2a": {
+      "oggetto": "Richiesta copia integrale dell'atto di nascita - L.P. nato a Castel Demo",
+      "origine": "Revisione manuale"
+    },
+    "2e80d0b1b7daaabde4966753e902dd1aebcfcc8c0f574aaffd18dfe165ba761a": {
+      "oggetto": "Rimborso di € 23,00 per diritti di segreteria non dovuti a G.G.",
+      "origine": "Revisione manuale"
+    },
+    "e27cdc3c56c9a7701258909798f580cc238a0e905acc7d67c8b7e94ac3a9e069": {
+      "oggetto": "Autorizzazione al trasporto di salma e cremazione B.E.",
+      "origine": "Revisione manuale"
+    },
+    "00a444e1afbe6b97a94642150480e35c5ba58232d72e02f48640afaf2eb4a1e0": {
+      "oggetto": "Richiesta passo carraio in Via Lucia De Angelis 4 - sig.ra L.D.A.",
+      "origine": "Revisione manuale"
+    },
+    "907b9febb3ff5407d5ec55fd7fead014f144b1e7256c98a4e26ba21581c54606": {
+      "oggetto": "Richiesta di concessione loculo per il defunto D.C.",
+      "origine": "Revisione manuale"
+    },
+    "74db76a59c7694e5599b29187f9ee7160c6213b8dc333664a249f3f2f54b40aa": {
+      "oggetto": "Rimborso di € 49,00 per diritti di segreteria non dovuti a D.L.P.",
+      "origine": "Revisione manuale"
+    },
+    "dcc2c116e20e9998b1612303cd0a21d7ebef6932f874edefdd005411ca97b5af": {
+      "oggetto": "Comunicazione degli orari delle funzioni - Parrocchia di San Prova",
+      "origine": "Revisione manuale"
+    },
+    "b94ba52754d71282e4dd61bdde6656cd0ee62abc7fc63a99171643586d590e3e": {
+      "oggetto": "Richiesta copia integrale dell'atto di nascita - P.C. nata a Fontanadati",
+      "origine": "Revisione manuale"
+    },
+    "80cecb9b7d8b13bd68ed19dfff1a2e9a1d0c0c26538fb5100a608d3a6c110bb9": {
+      "oggetto": "Richiesta di rettifica dei dati anagrafici - M.G.D.V.Z.",
+      "origine": "Revisione manuale"
+    },
+    "ca14e57a368fd091a2f55f02d0ff3095bd313811fa2ce232ec5aa7754bab026f": {
+      "oggetto": "Deposito pratica CILA - Piazza della Prova 7 - professionista incaricato geom. I.L.",
+      "origine": "Revisione manuale"
+    },
+    "dfea01c0e4052180984c012f46e84685f28a571e2365b106e9c54cf67ebab78e": {
+      "oggetto": "Richiesta certificato di residenza storico - M.G.",
+      "origine": "Revisione manuale"
+    },
+    "8d73aaddf481d0f5e62a8ca0d735f5dfb16786d7587d10d5d64fbff984ff730f": {
+      "oggetto": "Variazione utenze TARI - P.M. C.F. MRTPLA59L51X000U",
+      "origine": "Revisione manuale"
+    },
+    "26fd4b8458db3d9518696914d8bb42ae9110147024b8c9e789500b458c5b6f72": {
+      "oggetto": "Istanza di accesso agli atti - avv. G.B. per conto del sig. C.M.",
+      "origine": "Revisione manuale"
+    },
+    "e0841059727fea87d006c4507ed7805edb63e212623e330d732d9b80a07cb233": {
+      "oggetto": "Richiesta di concessione loculo per il defunto A.G.",
+      "origine": "Revisione manuale"
+    },
+    "a6b4c4fefd152944d834026485ad40af26dfbdf165f4b4d60250c4ae3c41c1da": {
+      "oggetto": "Preventivo per manutenzione del verde pubblico - E.E. S.r.l.",
+      "origine": "Revisione manuale"
+    },
+    "23f46e7b139f75f3b352d9103647f9aba6c2ab942c3a6eb832ac34cd063d868f": {
+      "oggetto": "RICHIESTA CONTRIBUTO ECONOMICO STRAORDINARIO - M.R.",
+      "origine": "Revisione manuale"
+    },
+    "4d85c8508fbd2ac882bf5d5a5de82b14622dab58c86dbd79714a2a9fa9485507": {
+      "oggetto": "Comunicazione dei dati sul servizio di assistenza domiciliare all'ATS di Esempio",
+      "origine": "Revisione manuale"
+    },
+    "866fbfd92725644e68789d4962d06064955270d4e97c38c870a84c7884c00494": {
+      "oggetto": "Richiesta certificato di residenza storico - P.C.",
+      "origine": "Revisione manuale"
+    },
+    "efd0c1c714c9e3abee72751be7edc26d1a377781741f7fbfcefd9b31494e747f": {
+      "oggetto": "Corso di formazione sulla privacy a cura della dott.ssa T.C. | 15 novembre ore 10.00",
+      "origine": "Revisione manuale"
+    },
+    "436dd1bb38b9e5a948c4535193635e2da1a5dc6d5d29f84baa3a4d7549cf7a57": {
+      "oggetto": "Indagine sulle spese delle famiglie: elenco delle famiglie campione",
+      "origine": "Revisione manuale"
+    },
+    "210e5786389e7f499f07e37b73826703150a97421fc0a70822a158d0dc6292de": {
+      "oggetto": "Rimborso di € 40,00 per diritti di segreteria non dovuti a C.T.",
+      "origine": "Revisione manuale"
+    },
+    "58c0ec4b2993f8b33f2b79ed52219cd51ea576c5c1fa317fec003f7dc18ab300": {
+      "oggetto": "Webinar gratuito di L.F. sul nuovo regolamento edilizio - 4 crediti formativi",
+      "origine": "Revisione manuale"
+    },
+    "22cdfde503461383486ed3c7392c2bb5ccd7b1a79bfc9f4c85b2e41fdfe36dbf": {
+      "oggetto": "Rimborso di € 37,00 per diritti di segreteria non dovuti a O.S.",
+      "origine": "Revisione manuale"
+    },
+    "c63dd8af48a9c1a705f02c6d96e56cbd67f6a28d82c5b20a7719df59ed3c4508": {
+      "oggetto": "Proposta di donazione di libri da parte di G.G.",
+      "origine": "Revisione manuale"
+    },
+    "25f8afd7e8b619c79221b77bc9c934b709fe40d7922c68a1c89b78e80641d29c": {
+      "oggetto": "Fattura elettronica n. 796/PA - V.D. S.p.A.",
+      "origine": "Revisione manuale"
+    },
+    "4271f03ab5c01703211ff9ec36c37ea9193beddf211e0ab2cdac55498d0aae5c": {
+      "oggetto": "Proposta di donazione di libri da parte di V.C.",
+      "origine": "Revisione manuale"
+    },
+    "889fad65cc793cd0d5d545e552bbe210e08d85b81f4786c327926eb51859c7b5": {
+      "oggetto": "Esposto per rumori molesti provenienti dall'abitazione della sig.ra T.",
+      "origine": "Revisione manuale"
+    },
+    "ba50c39323e826fa11c6e37af3387115b2615c31d6d022b5f5734170df7aec91": {
+      "oggetto": "Proposta di donazione di libri da parte di A.C.",
+      "origine": "Revisione manuale"
+    },
+    "e7a0a2b3551dc5f6180efea9ffc7b462ab91bc2aa27c28367c45e02c8037b0a9": {
+      "oggetto": "Richiesta di congedo ordinario - dipendente M.B.",
+      "origine": "Revisione manuale"
+    },
+    "49311f8c9fd7c569c56d790f295dccc5d431d830e082421874dc5fa1bd12aaf1": {
+      "oggetto": "Iscrizione al servizio scuolabus - alunna G.B. - genitore E.C.",
+      "origine": "Revisione manuale"
+    },
+    "93137cab0152ae9f206dc691764c9a980f35922f252f7422d27f9a10c1961b33": {
+      "oggetto": "Richiesta certificato di residenza storico - A.G.",
+      "origine": "Revisione manuale"
+    },
+    "d7ae827c278cd5e91c1492ddb40dc27d2fc9f228c536bf46439c97a900dc0767": {
+      "oggetto": "Deposito pratica CILA - Piazza della Prova 114 - professionista incaricato geom. R.V.",
+      "origine": "Revisione manuale"
+    },
+    "122a2756d2a4478209079c8356b9f1893f26816c2de7666d7a40acb27f1c0d90": {
+      "oggetto": "Segnalazione albero pericolante in Via Ipotetica 113/B - condominio Il Glicine",
+      "origine": "Revisione manuale"
+    },
+    "b36a6a31fc086548e52ebb2f3a3aa8456b844b74dcbd2b49b4450b915c2e2b55": {
+      "oggetto": "Preventivo per manutenzione del verde pubblico - I.F. S.n.c.",
+      "origine": "Revisione manuale"
+    },
+    "1722d3f2d6bde2a5b5fb1b786e18f9f63d5334424a2054cfa140393259f5308a": {
+      "oggetto": "Proposta di donazione di libri da parte di R.C.",
+      "origine": "Revisione manuale"
+    },
+    "40731d40d7ef483bf01b15ccb5f048a55efdc053ae2d942fd1b2bdc74f85cacc": {
+      "oggetto": "Esposto per rumori molesti provenienti dall'abitazione del sig. M.",
+      "origine": "Revisione manuale"
+    },
+    "c9e5263250fedd2c89911f950b59ee67a1270b43c5496235bff0a8e1ebd53858": {
+      "oggetto": "RICHIESTA CONTRIBUTO ECONOMICO STRAORDINARIO - P.F.",
+      "origine": "Revisione manuale"
+    }
+  },
+  "nomi_verificati": {
+    "Palumbo": "P.",
+    "Studio Tecnico Prova S.a.s.": "S.T.P. S.a.s.",
+    "CARUSO OTTAVIO": "C.O.",
+    "GIORDANO PIETRO": "G.P.",
+    "Conte Concetta": "C.C.",
+    "Caterina Benedetti": "C.B.",
+    "Alberto Pellegrini": "A.P.",
+    "VITALE TERESA": "V.T.",
+    "SANTORO ANTONIO": "S.A.",
+    "Sergio Costa": "S.C.",
+    "Pellegrino Wilma": "P.W.",
+    "Ferrara Vincenzo": "F.V.",
+    "Alfa Servizi Esempio S.r.l.s.": "A.S.E. S.r.l.s.",
+    "Onoranze Funebri Esempio S.n.c.": "O.F.E. S.n.c.",
+    "Anna Maria Della Valle Zani": "A.M.D.V.Z.",
+    "Traslochi Campione S.r.l.s.": "T.C. S.r.l.s.",
+    "Anna Maria Carbone": "A.M.C.",
+    "Giulia Ricci": "G.R.",
+    "SANTORO ROBERTO": "S.R.",
+    "RIZZI SARA": "R.S.",
+    "Impianti Fittizi S.n.c.": "I.F. S.n.c.",
+    "Sara Parisi": "S.P.",
+    "Carmela Mancini": "C.M.",
+    "Forniture Bozza S.p.A.": "F.B. S.p.A.",
+    "Verde Demo S.p.A.": "V.D. S.p.A.",
+    "Mariani Francesca": "M.F.",
+    "MARTINI GIANNI": "M.G.",
+    "DELL'ACQUA MARTA": "D.A.M.",
+    "Matteo Serra": "M.S.",
+    "Iolanda Lo Presti": "I.L.P.",
+    "Chiara Mazza": "C.M.",
+    "BENEDETTI SARA": "B.S.",
+    "Margherita Rinaldi": "M.R.",
+    "Lucia Silvestri": "L.S.",
+    "Francesca Parisi": "F.P.",
+    "Gian Luca Della Valle Zani": "G.L.D.V.Z.",
+    "Mario Bertolini": "M.B.",
+    "Fabio Silvestri": "F.S.",
+    "Paola Pellegrino": "P.P.",
+    "Battista Marini": "B.M.",
+    "Parisi Angelo": "P.A.",
+    "Stefano Rinaldi": "S.R.",
+    "Maria Grazia Lo Presti Tonoli": "M.G.L.P.T.",
+    "Luisa Dell'Acqua": "L.D.A.",
+    "Franca Gallo": "F.G.",
+    "Sara Farina": "S.F.",
+    "Pellegrini Graziella": "P.G.",
+    "Messina Marco": "M.M.",
+    "Rossi Gian Luca": "R.G.L.",
+    "Pierangelo Parisi": "P.P.",
+    "Francesco Rossi": "F.R.",
+    "Carlo Ferri": "C.F.",
+    "GIULIANI MATTEO": "G.M.",
+    "CATTANEO IOLANDA": "C.I.",
+    "Ida Rinaldi": "I.R.",
+    "Lucia Sanna": "L.S.",
+    "Laura Ferri": "L.F.",
+    "Elettrica Ipotetica S.r.l.": "E.I. S.r.l.",
+    "Termoidraulica Modello S.r.l.": "T.M. S.r.l.",
+    "Sanna Anna Maria": "S.A.M.",
+    "Martini Marta": "M.M.",
+    "Wilma Coppola": "W.C.",
+    "Fabbri": "F.",
+    "VILLA OTTAVIO": "V.O.",
+    "Maria Bellò": "M.B.",
+    "Pierangelo Rossi": "P.R.",
+    "Ettore Vitale": "E.V.",
+    "Esposito Sara": "E.S.",
+    "Battista Serra": "B.S.",
+    "Federica Leone": "F.L.",
+    "Ferri Battista": "F.B.",
+    "Rosanna Della Valle": "R.D.V.",
+    "Antonio Caruso": "A.C.",
+    "Leone Pietro": "L.P.",
+    "Giovanna Gallo": "G.G.",
+    "BONETTI ERMANNO": "B.E.",
+    "Lucia De Angelis": "L.D.A.",
+    "Dario Carbone": "D.C.",
+    "Dario Lo Presti": "D.L.P.",
+    "Parisi Carla": "P.C.",
+    "Maria Grazia Della Valle Zani": "M.G.D.V.Z.",
+    "Ida Leone": "I.L.",
+    "Michele Giuliani": "M.G.",
+    "Paola Moretti": "P.M.",
+    "Giovanni Bonetti": "G.B.",
+    "Cesare Marini": "C.M.",
+    "Andrea Grasso": "A.G.",
+    "Edilnova Esempio S.r.l.": "E.E. S.r.l.",
+    "MAZZA RENATO": "M.R.",
+    "Pierangelo Caruso": "P.C.",
+    "Teresa Conti": "T.C.",
+    "Carmela Tonoli": "C.T.",
+    "Luisa Fabbri": "L.F.",
+    "Ottavio Sala": "O.S.",
+    "Giuseppe Grasso": "G.G.",
+    "Vincenzo Conte": "V.C.",
+    "Testa": "T.",
+    "Anna Colombo": "A.C.",
+    "Marini Bice": "M.B.",
+    "Graziella Bonetti": "G.B.",
+    "Ettore Colombo": "E.C.",
+    "Antonietta Giordano": "A.G.",
+    "Renato Villa": "R.V.",
+    "Roberto Colombo": "R.C.",
+    "Marino": "M.",
+    "PELLEGRINO FRANCESCO": "P.F."
+  }
+}

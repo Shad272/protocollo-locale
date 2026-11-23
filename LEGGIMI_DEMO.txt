@@ -1,0 +1,58 @@
+PROTOCOLLO LOCALE - VERSIONE DIMOSTRATIVA
+
+Il programma è quello usato in ufficio, senza modifiche al funzionamento.
+Il registro di protocollo e il riferimento approvato sono inventati: nomi,
+ditte, indirizzi e codici fiscali non appartengono a nessuno (i codici
+fiscali usano un codice di comune che non esiste).
+
+A COSA SERVE
+Il registro di protocollo di un Comune elenca ogni documento ricevuto o
+inviato. Prima di pubblicarlo o condividerlo, nell'oggetto i nomi delle
+persone vanno ridotti a iniziali. Il programma propone le iniziali riga per
+riga; una persona decide ogni caso; l'esportazione resta bloccata finché
+tutte le righe nuove non sono state controllate.
+
+COME AVVIARLO
+- Windows: AVVIA.cmd (vedi LEGGIMI.txt: serve Python 3.12 a 64 bit, che
+  AVVIA.cmd può installare da solo se c'è Internet).
+- Linux o macOS: Python 3.12 con Tk e i pacchetti di requirements.txt, poi,
+  da questa cartella, python3 interfaccia_v4.py
+Poi premi "1. Apri tabella grezza" e scegli
+Dati_di_prova/Registro_protocollo_di_prova.xlsx.
+
+COSA C'È NEL REGISTRO DI PROVA
+160 registrazioni di ottobre 2026, con due righe di intestazione sopra la
+tabella e una riga di totale in fondo (il programma le salta da solo).
+- 134 righe sono già nel riferimento approvato e vengono riusate.
+- 26 righe sono nuove e vanno controllate. Fra queste:
+  - due righe del periodo già approvato, corrette dopo l'approvazione:
+    basta un testo diverso perché non vengano riusate;
+  - persone già incontrate: il dizionario dei nomi verificati le riconosce;
+  - nomi che il programma non trova da solo (un cognome isolato, un ospite,
+    un dipendente): vanno selezionati a mano nel testo originale;
+  - un'associazione sportiva e una parrocchia: proposte da decidere,
+    di solito da conservare;
+  - un'associazione che il programma abbrevia da solo: va conservata;
+  - una proposta troppo larga (un nome seguito da altre parole): va
+    conservata e il nome selezionato a mano;
+  - circolari di enti pubblici: nessuna proposta;
+  - ditte con forma giuridica (S.r.l., S.n.c., S.p.A.): abbreviate;
+  - indirizzi e codici fiscali: restano visibili, come previsto.
+- Nel riferimento c'è anche una riga approvata con una versione precedente
+  che contiene un carattere accentato letto male: il programma lo ripara
+  quando la mostra e la esporta.
+
+ALTRO FILE DI PROVA
+Registro_con_numero_duplicato_di_prova.csv ripete un numero di protocollo:
+il programma si ferma e chiede di controllare la tabella originale.
+
+LIMITI
+Il riconoscimento non garantisce di trovare tutti i nomi: per questo ogni
+riga nuova richiede il controllo di una persona. I modelli di linguaggio
+facoltativi (spaCy e GLiNER, ATTIVA_RICONOSCIMENTO.cmd) non sono inclusi e
+la prova funziona anche senza.
+
+Verifiche fatte su Linux con Python 3.12: test automatici del programma,
+apertura del registro di prova nell'interfaccia, riuso delle 134 righe,
+blocco dell'esportazione con righe da controllare. L'avvio con AVVIA.cmd
+non è stato provato su un PC Windows.

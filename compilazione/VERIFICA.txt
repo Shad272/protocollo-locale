@@ -1,0 +1,36 @@
+VERIFICHE 4.3
+57 test automatici del programma: superati.
+Apertura/chiusura entry point e Tk sotto Linux: superate.
+58 file PE Windows nel pacchetto: dipendenze DLL non di sistema risolte.
+Launcher x64 GUI e risorse versione/descrizione: verificati.
+Setup NSIS compilato senza errori.
+Esecuzione completa e installazione su Windows: NON ancora verificate.
+Wine non e eseguibile nel presente ambiente (socket non consentiti).
+Il Setup esegue un controllo Python/Tk/moduli sul PC di destinazione.
+
+ICONA APPLICATA
+10 dimensioni ICO incorporate in ProtocolloLocale.exe e nel Setup.
+Icona presente nella finestra Tk e nelle schermate del Setup.
+Interfaccia verificata a 1306x678 e 900x650: nessun pulsante tagliato.
+Importazione ed export di un registro mensile completo: confronto superato.
+
+INTERFACCIA CLASSICA - 23/10/2026
+57 test esistenti superati. Nove file del motore, del riferimento approvato
+e degli avvii confrontati via SHA-256: identici. I metodi funzionali della
+interfaccia confrontati tramite AST: identici.
+Layout verificato con Tk 8.6 (come il runtime Windows) a 1366x850 e 900x650.
+Verificate approvazione per riga e protezione dell’export delle righe non verificate.
+Installer Windows ricompilato; collaudo completo su Windows ancora da effettuare.
+
+RIQUADRO NOMINATIVI RIPRISTINATO
+57 test esistenti superati; nove file protetti sempre identici via SHA-256.
+Verificati pannelli principali a 1366x850 e 900x650, finestra di controllo
+a 1120x700 e 840x530. Doppio clic, modifiche isolate, approvazione, blocco
+export e presentazione dei riferimenti approvati verificati.
+L’elenco dei nominativi e di sola consultazione e non modifica i dati.
+
+MODIFICA DIRETTA OGGETTO
+57 test esistenti e 6 nuovi test Tk di integrazione superati.
+Verificati incolla, bozze tra righe, annullamento locale, conferma su riga
+già approvata, esportazione Excel/PDF corretta e riuso delle correzioni JSON.
+L’algoritmo di riconoscimento e tutti i nove file protetti sono invariati.

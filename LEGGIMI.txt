@@ -1,0 +1,142 @@
+PROTOCOLLO LOCALE 4.3 - GUIDA RAPIDA
+22 ottobre 2026
+
+AVVIO
+1. Estrai tutto lo ZIP. Non aprire AVVIA.cmd dentro l'archivio compresso.
+2. Apri AVVIA.cmd nella cartella Protocollo_Locale.
+   REQUISITO: Python 3.12 a 64 bit con Tcl/Tk.
+   Se manca, AVVIA.cmd lo scarica e installa automaticamente usando prima
+   Python Install Manager e poi, se necessario, winget per il solo utente.
+   Non devi digitare comandi o installare Python a mano. Serve Internet.
+   Si apre una console che rimane visibile anche se si verifica un errore.
+   Dopo la comparsa dell'interfaccia puoi chiuderla scrivendo exit.
+3. Premi "1. Apri tabella grezza" e scegli il registro di prova
+   Dati_di_prova\\Registro_protocollo_di_prova.xlsx.
+   Non caricare il risultato gia' anonimizzato della vecchia versione.
+4. Nel registro di prova 134 righe coincidono con il riferimento approvato
+   incluso; le altre 26 vanno controllate prima di esportare in Excel o PDF.
+
+SE L'INTERFACCIA NON SI APRE
+Non serve riavviare il PC. Leggi il messaggio nella console che rimane aperta.
+I file diagnostica_avvio.log, avvio.log e ultimo_avvio_cmd.log nella cartella
+registrano i tentativi, l'interprete scelto e gli eventuali errori completi.
+Se devi chiedere assistenza, allega diagnostica_avvio.log e ultimo_avvio_cmd.log.
+Se la finestra termina dopo essersi inizializzata, non viene dichiarato successo.
+L'icona del programma e inclusa nelle icone e nella finestra.
+
+CHE COSA CAMBIA
+- Il risultato contiene soltanto Numero, Tipo, Data e Oggetto.
+- Oggetto contiene soltanto l'oggetto originale: non vengono aggiunti mittente,
+  destinatario, classificazione, fascicolo, allegati o stato.
+- Il motore lavora su intervalli della singola riga originale: una proposta
+  non viene applicata indiscriminatamente a tutte le righe.
+- Indirizzi, numeri, codici e testo amministrativo vengono conservati.
+- Una frase dubbia proposta da un modello non viene abbreviata automaticamente.
+- Nessuna iterazione dei modelli sul testo gia' trasformato in iniziali.
+- Il risultato originale non viene sovrascritto.
+
+RIFERIMENTO APPROVATO DI PROVA
+riferimento_approvato.json contiene le righe del registro di prova gia' approvate
+e il dizionario dei nominativi inventati ricavato da quella revisione.
+Il contenuto e' locale e visibile: non e' un modello addestrato per indovinare
+qualsiasi nome nuovo. Conserva questo file insieme al programma.
+
+Una riga viene riusata come gia' approvata solo se numero, tipo, data e oggetto
+ORIGINALI corrispondono all'impronta registrata. Numero uguale con oggetto,
+tipo o data diversi NON e' una corrispondenza. Il riuso non si basa soltanto
+sul numero di protocollo e non costituisce una misura di accuratezza del NER.
+Il dizionario dei nomi verificati suggerisce le iniziali anche in nuovi oggetti;
+quelle righe nuove richiedono comunque una nuova revisione.
+
+PER MESI NUOVI E RIGHE DIVERSE
+1. Apri la tabella grezza.
+2. Apri "Revisione della riga selezionata" con un doppio clic sulla riga,
+   oppure premi "Controlla riga selezionata".
+3. Confronta Originale e Oggetto da esportare.
+4. Seleziona una proposta e scegli "Applica iniziali" oppure
+   "Conserva: non e' un nominativo". Controlla anche le proposte gia' applicate.
+5. Se manca un nome, selezionalo nel riquadro Originale e premi
+   "Anonimizza selezione originale". La selezione vale soltanto in quella riga.
+6. Premi "Ho verificato questa riga -> successiva".
+7. Usa "Salva approvazioni" per riusare il lavoro con "Carica approvazioni".
+   L'archivio contiene soltanto le righe approvate e i nomi verificati.
+8. Quando tutte le righe sono approvate e tutte le proposte hanno una decisione,
+   puoi esportare. Il programma blocca le esportazioni incomplete.
+
+Il controllo umano di OGNI riga nuova e' intenzionale: zero segnalazioni dei
+riconoscitori non dimostra assenza di nominativi. Non esiste qui una garanzia
+automatica di errore zero su qualunque documento. Questo non e' un prodotto
+per anonimizzare ogni dato personale: ad esempio indirizzi e codici fiscali
+rimangono visibili, come richiesto.
+
+MODELLI LOCALI (PER I NOMI NUOVI)
+Il programma usa, se installati, spaCy italiano e GLiNER multilingue insieme
+alle anagrafiche presenti nella tabella e al dizionario verificato.
+Per installarli, chiudi il programma e apri ATTIVA_RICONOSCIMENTO.cmd.
+Servono Internet, alcuni GB liberi e diversi minuti al primo download.
+La rotellina nel CMD indica la fase e il tempo trascorso; dettagli ed errori
+sono in installazione.log. Quando l'installazione termina riapri la tabella.
+Le righe gia' approvate identiche non richiedono i modelli per il loro riuso.
+Se mancano uno o entrambi i modelli, il programma lo indica esplicitamente:
+le nuove righe si possono esportare soltanto dopo la revisione manuale completa.
+Durante l'analisi non vengono inviati documenti o nomi in rete; GLiNER carica
+soltanto i pesi gia' scaricati e i due modelli operano sul PC.
+
+REQUISITI E INSTALLAZIONE
+Windows 10/11, Python 3.12 a 64 bit, incluso Tcl/Tk.
+Download ufficiale: https://www.python.org/downloads/windows/
+Il nuovo avvio riusa un ambiente compatibile gia' presente. Se quello vecchio
+non e' compatibile crea .venv312, senza cancellare i vecchi ambienti.
+Il riconoscitore italiano viene installato da pacchetti binari per evitare
+il vecchio tentativo di compilazione con dipendenze incompatibili.
+Non sono necessari diritti di amministratore per eseguire il programma.
+Se Windows o la rete dell'ufficio impediscono di scaricare i componenti,
+consulta installazione.log e fai configurare l'ambiente secondo le regole IT.
+
+VERIFICHE DELLA VERSIONE
+- Test automatici di riconoscimento, intervalli, decisioni, archivi, import/export,
+  conservazione dei numeri e rotellina (test_motore_v4.py e test_attivita.py).
+- Controllo di tutte le righe di un mese reale rispetto al riferimento approvato
+  di allora. Nella versione dimostrativa registro e riferimento sono inventati.
+- Prova completa dell'interfaccia Tk: apertura del grezzo, riuso del riferimento,
+  esportazione Excel/PDF e lettura dei risultati, senza modificare l'originale.
+- Interfaccia controllata a 1306x678 e 900x650 in un ambiente grafico Linux.
+- Il launcher CMD e l'interfaccia non sono stati eseguiti su un vero Windows.
+- Le API dei modelli sono testate con rilevatori simulati in questa revisione;
+  non viene dichiarata una percentuale di accuratezza su dati nuovi mai visti.
+
+Sorgenti di installazione: documentazione ufficiale pip, spaCy e PyTorch.
+https://pip.pypa.io/en/stable/cli/pip_install/
+https://spacy.io/usage/models
+https://pytorch.org/get-started/locally/
+
+INSTALLAZIONE AUTOMATICA PYTHON 3.12
+Il requisito viene verificato PRIMA di avviare qualsiasi codice Python del
+programma. Sono controllate versione 3.12, architettura 64 bit e Tcl/Tk.
+Gli ambienti 3.11 vengono conservati ma non riutilizzati.
+Il gestore Python usa il canale ufficiale Python. In sua assenza viene
+richiesto a winget il pacchetto Python.Python.3.12 per il solo utente.
+Se entrambi i gestori mancano o la rete impedisce il download, la console
+rimane aperta e spiega il problema: non viene dichiarato un falso successo.
+Il launcher non cambia regole di sicurezza o criteri dell'ufficio.
+
+VERSIONE INSTALLABILE 4.3
+E disponibile anche ProtocolloLocale_Setup.exe: contiene un runtime privato
+Python 3.12 e i componenti base. Vedi LEGGIMI_INSTALLER.txt.
+I sorgenti e AVVIA.cmd restano indipendenti. L'icona del programma e applicata alle icone e alla finestra.
+
+INTERFACCIA CLASSICA AGGIORNATA
+Disposizione ispirata alla prima versione, grafica chiara e squadrata.
+Riconoscimento e revisione delle righe restano quelli della versione approvata.
+
+MODIFICA DIRETTA DELL’OGGETTO
+Nel controllo della riga, il riquadro OGGETTO MODIFICABILE a destra permette
+di scrivere, incollare e correggere anche i risultati gia approvati.
+Premi Salva e conferma modifica per applicare il testo a quella sola riga,
+oppure Annulla per tornare al testo salvato. Anche il pulsante di verifica
+della riga salva e conferma il testo modificato prima di avanzare.
+L’originale a sinistra rimane come confronto. Le altre righe non cambiano.
+Le bozze restano disponibili cambiando selezione; prima di esportare o
+salvare le approvazioni occorre confermarle o annullarle.
+Salva approvazioni JSON permette di riutilizzare le correzioni su originali
+identici anche nelle sessioni successive.
